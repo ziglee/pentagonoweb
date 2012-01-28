@@ -1,6 +1,6 @@
 class UpdateController < ApplicationController
 	def index
-		render :json => {date:'2011-06-27 19:30', name:'Prototipo', version: 2, stops:[
+		render :json => {date:'2012-01-28 19:40', name:'Prototipo', version: 3, stops:[
 {seq: 1,lat:-1.402899,long:-48.428823,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada1.ogg',md5:'76f51a4731ee31c8638faa94d9cba611'},
 {seq: 2,lat:-1.409053,long:-48.439300,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada2.ogg',md5:'7f7faa6f3959cc8e936c4a223ac8fe7b'},
 {seq: 3,lat:-1.411590,long:-48.442189,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada3.ogg',md5:'815e806f75c7d0bcd6b789bf1a1db891'},
@@ -50,7 +50,23 @@ class UpdateController < ApplicationController
 {seq:47,lat:-1.456749,long:-48.468831,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada47.ogg',md5:'07d095b560b011b6cf8b14348158b218'},
 {seq:48,lat:-1.452706,long:-48.468858,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada48.ogg',md5:'971267c4b2ce7e942082e2fcb8bb5272'},
 {seq:49,lat:-1.449156,long:-48.466900,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada49.ogg',md5:'ee3d3094b3880bc307fe4c7b2a25bb56'},
-{seq:50,lat:-1.446268,long:-48.464934,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada50.ogg',md5:'86d23e9cd40df5876f1ecd1899d8f0b7'}
+{seq:50,lat:-1.446268,long:-48.464934,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada50.ogg',md5:'86d23e9cd40df5876f1ecd1899d8f0b7'},
+{seq:51,lat:-1.445262,long:-48.464255,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada51.ogg',md5:'fc2f899e2c32fb5dd85a4bdb1ee3dc86'},
+{seq:52,lat:-1.442297,long:-48.462311,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada52.ogg',md5:'6b60175af7a5eedcbc7faba2cf0e4d43'},
+{seq:53,lat:-1.439377,long:-48.460366,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada53.ogg',md5:'0213428f42494f9703f1523427689d82'},
+{seq:54,lat:-1.436309,long:-48.458341,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada54.ogg',md5:'e2577024044621073695a60af74e946f'},
+{seq:55,lat:-1.433732,long:-48.456614,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada55.ogg',md5:'64d67733057e60142b25e89a67950c62'},
+{seq:56,lat:-1.429920,long:-48.454076,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada56.ogg',md5:'a524845d5f222011851dfad15adc02cd'},
+{seq:57,lat:-1.424865,long:-48.450775,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada57.ogg',md5:'cba0165b060a739221147b5ce578598d'},
+{seq:58,lat:-1.422570,long:-48.449270,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada58.ogg',md5:'815e806f75c7d0bcd6b789bf1a1db891'},
+{seq:59,lat:-1.420213,long:-48.447722,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada59.ogg',md5:'dcbaf1a7f54df484632da6a6c1de56a2'},
+{seq:60,lat:-1.419339,long:-48.447170,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada60.ogg',md5:'e5f08e4088f6196ee5ca078c598e9c12'},
+{seq:61,lat:-1.414928,long:-48.444217,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada61.ogg',md5:'963274e7c6a917110a37fd011b33c9db'},
+{seq:62,lat:-1.413080,long:-48.442883,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada62.ogg',md5:'d3e3e3efabc44b19bc31283b8c002873'},
+{seq:63,lat:-1.411295,long:-48.441553,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada62.ogg',md5:'d3e3e3efabc44b19bc31283b8c002873'},
+{seq:64,lat:-1.409136,long:-48.438648,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada62.ogg',md5:'d3e3e3efabc44b19bc31283b8c002873'},
+{seq:65,lat:-1.404867,long:-48.431157,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada62.ogg',md5:'d3e3e3efabc44b19bc31283b8c002873'}
 ]}
 	end
 end
+
