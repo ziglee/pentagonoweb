@@ -1,3 +1,3 @@
 Pentagonoweb::Application.routes.draw do
-  get "update/index"
+  match 'update/:device_id' => 'update#index'
 end
