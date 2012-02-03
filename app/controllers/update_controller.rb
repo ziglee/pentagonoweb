@@ -1,11 +1,11 @@
 class UpdateController < ApplicationController
 	def index
-		render :json => {date:'2012-02-02 23:25', name:'XPTO-05', version: 5, deviceId: params[:device_id],
+		render :json => {date:'2012-02-03 00:15', name:'XPTO-06', version: 6, deviceId: params[:device_id],
 			adAudio:'http://pentagonobusstop.herokuapp.com/audio/adAudio.ogg', adMd5:'cd08b769ced0f38bb9366603547fde22', 
 			solicitacaoAudio:'http://pentagonobusstop.herokuapp.com/audio/solicitacao.ogg', solicitacaoMd5:'d2e0c5ded572c25a4699acf2262b54b9', 
 			proximaAudio:'http://pentagonobusstop.herokuapp.com/audio/proxima.ogg', proximaMd5:'d34ec652b77ff72ecc33ed4668ce27f7', 
 			stops:[
-			{seq: 1,lat:-1.402899,long:-48.428823,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada1.ogg',md5:'76f51a4731ee31c8638faa94d9cba611'},
+			{seq: 1,lat:-1.402899,long:-48.428823,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada01.ogg',md5:'91caa45a90fd43222d26186ce6f1699b'},
 			{seq: 2,lat:-1.409053,long:-48.439300,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada2.ogg',md5:'7f7faa6f3959cc8e936c4a223ac8fe7b'},
 			{seq: 3,lat:-1.411590,long:-48.442189,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada3.ogg',md5:'815e806f75c7d0bcd6b789bf1a1db891'},
 			{seq: 4,lat:-1.413855,long:-48.443865,audio:'http://pentagonobusstop.herokuapp.com/audio/Parada4.ogg',md5:'cba0165b060a739221147b5ce578598d'},
